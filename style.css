@@ -1,0 +1,50 @@
+#main{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#acciojob{
+    Display:flex;
+    align-items:center;
+}
+
+#accio-logo{
+    width: 38px;
+    height: 38px;
+}
+
+#acciojob>img{
+    width: 77px;
+height: 35px;
+background: url(<path-to-image>), lightgray -0.227px 0.097px / 100% 99.446% no-repeat;
+}
+
+
+#acciojob>p{
+    color: #012555;
+font-family: Bai Jamjuree;
+font-size: 21.714px;
+font-style: normal;
+font-weight: 600;
+line-height: 38px; /* 175% */
+letter-spacing: -0.869px;
+}
+#announcement{
+display: flex;
+width: 1440px;
+padding: 8px 562px;
+align-items: flex-start;
+gap: 10px;
+
+background: var(--primaryskyblue, #2F80ED);
+}
+#announcement>p{
+    color: #FFF;
+font-family: ABeeZee;
+font-size: 14px;
+font-style: italic;
+font-weight: 400;
+line-height: 150%; /* 21px */
+letter-spacing: 0.28px;
+
+}
